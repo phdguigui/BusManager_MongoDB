@@ -17,8 +17,8 @@ namespace BusManager.Data
 
         public ApplicationContext ()
         {
-            var client = new MongoClient("mongodb+srv://guiricardo:DhZBcNhqUzVkXhUB@cluster1.1ufd8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1");
-            database = client.GetDatabase("BusManager");
+            var client = new MongoClient("");
+            database = client.GetDatabase("");
         }
 
         private void ConfigureIndexes()
