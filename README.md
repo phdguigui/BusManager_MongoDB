@@ -1,4 +1,4 @@
-## 🚍 Trabalho Prévio com PostgreSQL
+# 🚍 Trabalho Prévio com PostgreSQL
 
 ## 📊 Domínio
 
@@ -67,11 +67,11 @@ Entretanto, dentro do projeto também há a pasta Migrations, geradas a partir d
 
 ---
 
-## 🗃️ Trabalho com MongoDB
+# 🗃️ Trabalho com MongoDB - Fase 2
 
 Para a segunda fase do trabalho de Banco de Dados II, foi substituído o banco de dados anterior com o PostgreSQL para o modelo NoSQL, nesse caso o MongoDB.
 
-### ♻️ Reaproveitamento de Código da Fase 1
+## ♻️ Reaproveitamento de Código da Fase 1
 
 Devida a utilização do [Entity Framework](https://learn.microsoft.com/pt-br/ef/core/), as operações ao banco de dados são traduzidas automaticamente. Ao configurar um Select, com Where, OrderBy etc. utilizando
 os métodos nativos do EF Core, .Net e LINQ, ele considera a configuração do context, verificando qual o banco de dados de destino (configurado no ApplicationContext.cs) e traduzindo o command ou query para a determinada linguagem empregada e tal banco, sendo ele
@@ -79,12 +79,12 @@ SQL ou NoSQL.
 
 Além disso a arquitetura no projeto desde a fase 1, separando-o em camadas, garantiu enorme reaproveitamento de código, tendo somente que alterar o Repository que é onde se tem a comunicação com o banco de dados.
 
-### 🔧 Pacotes Relacionados
+## 🔧 Pacotes Relacionados
 
 Para isso, foram desinstalados os pacotes utilizados anteriormente, por exemplo o Entity Framework Design, dado que não foi possível realizar migrations para o Mongo, e o Entity Framework PostgreSQL, dada a sua inutilidade a partir da fase 2.
 Para a configuração e comunicação do EF Core com o banco Mongo, foi instalado o pacote Entity Framework MongoDB.
 
-### 🏗️ Estrutura de Relacionamento Utilizada
+## 🏗️ Estrutura de Relacionamento Utilizada
 
 Visando o reaproveitamento de código e a estrutura utilizada na fase 1, fez-se o relacionamento entre collections de forma similar a feita anteriormente, com referências de uma collection para outra, como seguem abaixo alguns exemplos:
 
@@ -96,12 +96,26 @@ Visando o reaproveitamento de código e a estrutura utilizada na fase 1, fez-se 
 
 ![image](https://github.com/user-attachments/assets/cbbe443e-a381-439b-a83e-a5633c062c4a)
 
-### ⚖️ Prós e Contras
+## ⚖️ Prós e Contras
 
 Além disso, a mudança para o formato de collections com documentos com propriedades aninhadas, causaria grande mudança na atualização dos documents, tanto 
 na estrutura do projeto quanto na performance, dada a necessidade de alteração em diversos locais, por exemplo motoristas que estão presentes em diversas viagens.
 
 Entretanto, a leitura com as propriedades aninhadas teria um grande ganho de performance, dada que todas as propriedades relativas a ela já estariam disponíveis, sendo principalmente eficaz na geração dos relatórios disponíveis.
+
+## 🛠️ Como utilizar 2.0
+
+A forma de execução do projeto foi facilitada, o download foi facilitado, estando agora presente na página de releases do repositório:
+
+![image](https://github.com/user-attachments/assets/cbb15904-a58c-4f2f-9428-a3e57ef15dbe)
+
+O download do projeto com o build já pronto e autossuficiente, sem a necessidade de qualquer instalação estará no arquivo zip indicado logo abaixo:
+
+![image](https://github.com/user-attachments/assets/3d3fc35d-3bde-4d59-8d97-a691b0a3417f)
+
+Descompactando o arquivo, basta a execução do BusManager.exe e o aplicativo estará em execução.
+
+![image](https://github.com/user-attachments/assets/7e78e148-b7d6-4c9b-baef-b8119f327083)
 
 ---
 
