@@ -96,6 +96,10 @@ Visando o reaproveitamento de código e a estrutura utilizada na fase 1, fez-se 
 
 ![image](https://github.com/user-attachments/assets/cbbe443e-a381-439b-a83e-a5633c062c4a)
 
+## 🌅 Criação e População das Collections
+
+Para a criação e população das collections, foram gerados dados aleatórios através do ChatGPT, os dados utilizados se encontram no repositório no seguinte endereço: [Collections Initial Data JSON](https://github.com/phdguigui/BusManager_MongoDB/blob/main/jsonCollections.json).
+
 ## ⚖️ Prós e Contras
 
 Além disso, a mudança para o formato de collections com documentos com propriedades aninhadas, causaria grande mudança na atualização dos documents, tanto 
