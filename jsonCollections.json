@@ -1,0 +1,8 @@
+JSONs com os dados para criação das collections do projeto
+
+Collection Buses
+
+[
+	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c1"},"Model":"UrbanFlex 1000","Plate":"ABC-1234","Active":true},
+	
+]
