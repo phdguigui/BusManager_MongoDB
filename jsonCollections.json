@@ -4,5 +4,112 @@ Collection Buses
 
 [
 	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c1"},"Model":"UrbanFlex 1000","Plate":"ABC-1234","Active":true},
-	
+	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c2"},"Model":"MetroXpress 2200","Plate":"DEF-5678","Active":true},
+	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c3"},"Model":"CityMax 3000","Plate":"GHI-9101","Active":true},
+	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c4"},"Model":"Ecoline 4500","Plate":"JKL-1122","Active":true},
+	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c5"},"Model":"ExpressLine 5000","Plate":"MNO-3344","Active":true},
+	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c6"},"Model":"TouristLine 6200","Plate":"PQR-5566","Active":true},
+	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c7"},"Model":"CommuterPro 7500","Plate":"STU-7788","Active":true},
+	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c8"},"Model":"RapidFlex 8900","Plate":"VWX-9900","Active":true},
+	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c9"},"Model":"CityMaster 10000","Plate":"YZA-1234","Active":true},
+	{"_id":{"$oid":"5f4e6a8f9a4f3d07e8b0a3ca"},"Model":"EcoMove 12000","Plate":"BCD-5678","Active":true}
+]
+
+Collection Drivers
+
+[
+	{"_id":{"$oid":"6736a78e001be4ded09259bd"},"CPF":"07318821997","Name":"Guilherme","Surname":"Siedschlag","Birthday":{"$date":{"$numberLong":"1017543600000"}},"HireDate":{"$date":{"$numberLong":"1731553200000"}},"Active":false},
+	{"_id":{"$oid":"6736a78e001be4ded09259be"},"CPF":"12345678901","Name":"Carlos","Surname":"Silva","Birthday":{"$date":{"$numberLong":"673370400000"}},"HireDate":{"$date":{"$numberLong":"1585104000000"}},"Active":true},
+	{"_id":{"$oid":"6736a78e001be4ded09259bf"},"CPF":"23456789012","Name":"Fernanda","Surname":"Oliveira","Birthday":{"$date":{"$numberLong":"492316800000"}},"HireDate":{"$date":{"$numberLong":"1517587200000"}},"Active":true},
+	{"_id":{"$oid":"6736a78e001be4ded09259c0"},"CPF":"34567890123","Name":"Joaquim","Surname":"Costa","Birthday":{"$date":{"$numberLong":"854042400000"}},"HireDate":{"$date":{"$numberLong":"1446124800000"}},"Active":true},
+	{"_id":{"$oid":"6736a78e001be4ded09259c1"},"CPF":"45678901234","Name":"Ana","Surname":"Pereira","Birthday":{"$date":{"$numberLong":"345216000000"}},"HireDate":{"$date":{"$numberLong":"1603065600000"}},"Active":false},
+	{"_id":{"$oid":"6736a78e001be4ded09259c2"},"CPF":"56789012345","Name":"Ricardo","Surname":"Lima","Birthday":{"$date":{"$numberLong":"474953600000"}},"HireDate":{"$date":{"$numberLong":"1651075200000"}},"Active":true},
+	{"_id":{"$oid":"6736a78e001be4ded09259c3"},"CPF":"67890123456","Name":"Cláudia","Surname":"Rodrigues","Birthday":{"$date":{"$numberLong":"1682505600000"}},"HireDate":{"$date":{"$numberLong":"1596259200000"}},"Active":true},
+	{"_id":{"$oid":"6736a78e001be4ded09259c4"},"CPF":"78901234567","Name":"Rafael","Surname":"Almeida","Birthday":{"$date":{"$numberLong":"233532000000"}},"HireDate":{"$date":{"$numberLong":"1547760000000"}},"Active":false},
+	{"_id":{"$oid":"6736a78e001be4ded09259c5"},"CPF":"89012345678","Name":"Mariana","Surname":"Santos","Birthday":{"$date":{"$numberLong":"580702800000"}},"HireDate":{"$date":{"$numberLong":"1672070400000"}},"Active":true},
+	{"_id":{"$oid":"6736a78e001be4ded09259c6"},"CPF":"90123456789","Name":"Eduardo","Surname":"Martins","Birthday":{"$date":{"$numberLong":"243861600000"}},"HireDate":{"$date":{"$numberLong":"1474540800000"}},"Active":true},
+	{"_id":{"$oid":"6736a78e001be4ded09259c7"},"CPF":"11223344556","Name":"Beatriz","Surname":"Souza","Birthday":{"$date":{"$numberLong":"868612800000"}},"HireDate":{"$date":{"$numberLong":"1532016000000"}},"Active":false}
+]
+
+Collection Lines
+
+[
+	{"_id":{"$oid":"6736ba9bfa0f8b15d773f85a"},"Name":"Linha Circular Centro","Code":"CEN","Origin":"Centro","Destiny":"Zona Leste","Description":"Linha circular que atende a região central.","Active":true},
+	{"_id":{"$oid":"6736ba9bfa0f8b15d773f85b"},"Name":"Linha Expresso Norte-Sul","Code":"ENS","Origin":"Zona Norte","Destiny":"Zona Sul","Description":"Serviço rápido entre as zonas norte e sul.","Active":true},
+	{"_id":{"$oid":"6736ba9bfa0f8b15d773f85c"},"Name":"Linha 15 - Bairro Novo","Code":"BN15","Origin":"Bairro Novo","Destiny":"Centro","Description":"Atende os bairros periféricos até o centro da cidade.","Active":true},
+	{"_id":{"$oid":"6736ba9bfa0f8b15d773f85d"},"Name":"Linha Expresso Térreo","Code":"ET","Origin":"Terminal Central","Destiny":"Terminal Expresso","Description":"Linha rápida, sem paradas intermediárias.","Active":true},
+	{"_id":{"$oid":"6736ba9bfa0f8b15d773f85e"},"Name":"Linha Bairro-Aeroporto","Code":"BA","Origin":"Bairro Industrial","Destiny":"Aeroporto Internacional","Description":"Conecta os bairros industriais ao aeroporto.","Active":true},
+	{"_id":{"$oid":"6736ba9bfa0f8b15d773f85f"},"Name":"Linha Circular Parque","Code":"PC","Origin":"Praça das Árvores","Destiny":"Parque das Nações","Description":"Ronda a área do parque com várias paradas.","Active":true},
+	{"_id":{"$oid":"6736ba9bfa0f8b15d773f860"},"Name":"Linha Integração Leste-Oeste","Code":"LO","Origin":"Zona Leste","Destiny":"Zona Oeste","Description":"Integra a cidade com pontos principais entre leste e oeste.","Active":true},
+	{"_id":{"$oid":"6736ba9bfa0f8b15d773f861"},"Name":"Linha 17 - Shopping","Code":"S17","Origin":"Shopping Plaza","Destiny":"Centro Comercial","Description":"Atende os principais centros comerciais e shoppings da cidade.","Active":true},
+	{"_id":{"$oid":"6736ba9bfa0f8b15d773f862"},"Name":"Linha Intermunicipal 12","Code":"IM12","Origin":"Cidade A","Destiny":"Cidade B","Description":"Linha que faz o transporte entre cidades próximas.","Active":true},
+	{"_id":{"$oid":"6736ba9bfa0f8b15d773f863"},"Name":"Linha 500 - Regional","Code":"R500","Origin":"Região Norte","Destiny":"Região Sul","Description":"Atende regiões periféricas, com várias paradas.","Active":true}
+]
+
+Collection Stations
+
+[
+	{"_id":{"$oid":"6736a8117e1e1bd1569884c0"},"Address":"Rua Albino Kolbach","Number":"51","Active":true},
+	{"_id":{"$oid":"6736b4f4e0938855b8dc8801"},"Address":"Rua Gralha","Number":"6","Active":true},
+	{"_id":{"$oid":"6736ba5ae0938855b8dc8802"},"Address":"Rua Xanxere","Number":"650","Active":true},
+	{"_id":{"$oid":"6736a8117e1e1bd1569884c1"},"Address":"Avenida Central","Number":"120","Active":true},
+	{"_id":{"$oid":"6736a8117e1e1bd1569884c2"},"Address":"Rua das Flores","Number":"234","Active":true},
+	{"_id":{"$oid":"6736a8117e1e1bd1569884c3"},"Address":"Rua Maria Clara","Number":"19","Active":true},
+	{"_id":{"$oid":"6736a8117e1e1bd1569884c4"},"Address":"Avenida Paulista","Number":"456","Active":true},
+	{"_id":{"$oid":"6736a8117e1e1bd1569884c5"},"Address":"Rua dos Imigrantes","Number":"789","Active":true},
+	{"_id":{"$oid":"6736a8117e1e1bd1569884c6"},"Address":"Praça da Liberdade","Number":"10","Active":true},
+	{"_id":{"$oid":"6736a8117e1e1bd1569884c7"},"Address":"Rua dos Bandeirantes","Number":"324","Active":true},
+	{"_id":{"$oid":"6736a8117e1e1bd1569884c8"},"Address":"Avenida dos Estados","Number":"588","Active":true},
+	{"_id":{"$oid":"6736a8117e1e1bd1569884c9"},"Address":"Rua dos Três Irmãos","Number":"112","Active":true},
+	{"_id":{"$oid":"6736a8117e1e1bd1569884ca"},"Address":"Rua Santa Teresa","Number":"65","Active":true}
+]
+
+Collection Stops
+
+[
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f84e"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f84d"},"StationId":{"$oid":"6736a8117e1e1bd1569884c0"},"Hour":{"$date":{"$numberLong":"-62135560800000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f84f"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f84d"},"StationId":{"$oid":"6736b4f4e0938855b8dc8801"},"Hour":{"$date":{"$numberLong":"-62135559000000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f851"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85c"},"StationId":{"$oid":"6736a8117e1e1bd1569884c3"},"Hour":{"$date":{"$numberLong":"1672531200000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f852"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85d"},"StationId":{"$oid":"6736a8117e1e1bd1569884c4"},"Hour":{"$date":{"$numberLong":"1672531200000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f853"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85e"},"StationId":{"$oid":"6736a8117e1e1bd1569884c5"},"Hour":{"$date":{"$numberLong":"1672531200000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f854"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85f"},"StationId":{"$oid":"6736a8117e1e1bd1569884c6"},"Hour":{"$date":{"$numberLong":"1672531200000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f855"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f860"},"StationId":{"$oid":"6736a8117e1e1bd1569884c7"},"Hour":{"$date":{"$numberLong":"1672531200000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f856"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f861"},"StationId":{"$oid":"6736a8117e1e1bd1569884c8"},"Hour":{"$date":{"$numberLong":"1672531200000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f857"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f862"},"StationId":{"$oid":"6736a8117e1e1bd1569884c9"},"Hour":{"$date":{"$numberLong":"1672531200000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f858"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f863"},"StationId":{"$oid":"6736a8117e1e1bd1569884ca"},"Hour":{"$date":{"$numberLong":"1672531200000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f859"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85a"},"StationId":{"$oid":"6736a8117e1e1bd1569884c1"},"Hour":{"$date":{"$numberLong":"1672534800000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f85a"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85b"},"StationId":{"$oid":"6736a8117e1e1bd1569884c2"},"Hour":{"$date":{"$numberLong":"1672534800000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f85b"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85c"},"StationId":{"$oid":"6736a8117e1e1bd1569884c3"},"Hour":{"$date":{"$numberLong":"1672534800000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f85c"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85d"},"StationId":{"$oid":"6736a8117e1e1bd1569884c4"},"Hour":{"$date":{"$numberLong":"1672534800000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f85d"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85e"},"StationId":{"$oid":"6736a8117e1e1bd1569884c5"},"Hour":{"$date":{"$numberLong":"1672534800000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f85e"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85f"},"StationId":{"$oid":"6736a8117e1e1bd1569884c6"},"Hour":{"$date":{"$numberLong":"1672534800000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f85f"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f860"},"StationId":{"$oid":"6736a8117e1e1bd1569884c7"},"Hour":{"$date":{"$numberLong":"1672534800000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f860"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f861"},"StationId":{"$oid":"6736a8117e1e1bd1569884c8"},"Hour":{"$date":{"$numberLong":"1672534800000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f861"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f862"},"StationId":{"$oid":"6736a8117e1e1bd1569884c9"},"Hour":{"$date":{"$numberLong":"1672534800000"}}},
+	{"_id":{"$oid":"6736bab4fa0f8b15d773f862"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f863"},"StationId":{"$oid":"6736a8117e1e1bd1569884ca"},"Hour":{"$date":{"$numberLong":"1672534800000"}}}
+]
+
+Collection Trips
+
+[
+	{"_id":{"$oid":"6736d203670a7e2b40799752"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c1"},"DriverId":{"$oid":"6736a78e001be4ded09259bd"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85a"},"StartTime":{"$date":{"$numberLong":"1731664800000"}},"EndTime":{"$date":{"$numberLong":"1731672000000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799753"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c1"},"DriverId":{"$oid":"6736a78e001be4ded09259bd"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85a"},"StartTime":{"$date":{"$numberLong":"1672531200000"}},"EndTime":{"$date":{"$numberLong":"1672534800000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799754"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c2"},"DriverId":{"$oid":"6736a78e001be4ded09259be"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85b"},"StartTime":{"$date":{"$numberLong":"1672534800000"}},"EndTime":{"$date":{"$numberLong":"1672538400000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799755"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c3"},"DriverId":{"$oid":"6736a78e001be4ded09259bf"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85c"},"StartTime":{"$date":{"$numberLong":"1672542000000"}},"EndTime":{"$date":{"$numberLong":"1672545600000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799756"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c4"},"DriverId":{"$oid":"6736a78e001be4ded09259c0"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85d"},"StartTime":{"$date":{"$numberLong":"1672545600000"}},"EndTime":{"$date":{"$numberLong":"1672549200000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799757"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c5"},"DriverId":{"$oid":"6736a78e001be4ded09259c1"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85e"},"StartTime":{"$date":{"$numberLong":"1672549200000"}},"EndTime":{"$date":{"$numberLong":"1672552800000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799758"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c6"},"DriverId":{"$oid":"6736a78e001be4ded09259c2"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85f"},"StartTime":{"$date":{"$numberLong":"1672552800000"}},"EndTime":{"$date":{"$numberLong":"1672556400000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799759"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c7"},"DriverId":{"$oid":"6736a78e001be4ded09259c3"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f860"},"StartTime":{"$date":{"$numberLong":"1672556400000"}},"EndTime":{"$date":{"$numberLong":"1672560000000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799760"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c8"},"DriverId":{"$oid":"6736a78e001be4ded09259c4"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f861"},"StartTime":{"$date":{"$numberLong":"1672560000000"}},"EndTime":{"$date":{"$numberLong":"1672563600000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799761"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3c9"},"DriverId":{"$oid":"6736a78e001be4ded09259c5"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f862"},"StartTime":{"$date":{"$numberLong":"1672563600000"}},"EndTime":{"$date":{"$numberLong":"1672567200000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799762"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3ca"},"DriverId":{"$oid":"6736a78e001be4ded09259c6"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f863"},"StartTime":{"$date":{"$numberLong":"1672567200000"}},"EndTime":{"$date":{"$numberLong":"1672570800000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799763"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3cb"},"DriverId":{"$oid":"6736a78e001be4ded09259c7"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f864"},"StartTime":{"$date":{"$numberLong":"1672570800000"}},"EndTime":{"$date":{"$numberLong":"1672574400000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799764"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3cc"},"DriverId":{"$oid":"6736a78e001be4ded09259c8"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f865"},"StartTime":{"$date":{"$numberLong":"1672574400000"}},"EndTime":{"$date":{"$numberLong":"1672578000000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799765"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3cd"},"DriverId":{"$oid":"6736a78e001be4ded09259c9"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f866"},"StartTime":{"$date":{"$numberLong":"1672578000000"}},"EndTime":{"$date":{"$numberLong":"1672581600000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799766"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3ce"},"DriverId":{"$oid":"6736a78e001be4ded09259ca"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f867"},"StartTime":{"$date":{"$numberLong":"1672581600000"}},"EndTime":{"$date":{"$numberLong":"1672585200000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799767"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3cf"},"DriverId":{"$oid":"6736a78e001be4ded09259cb"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f868"},"StartTime":{"$date":{"$numberLong":"1672585200000"}},"EndTime":{"$date":{"$numberLong":"1672588800000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799768"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3d0"},"DriverId":{"$oid":"6736a78e001be4ded09259cc"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f869"},"StartTime":{"$date":{"$numberLong":"1672588800000"}},"EndTime":{"$date":{"$numberLong":"1672592400000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799769"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3d1"},"DriverId":{"$oid":"6736a78e001be4ded09259cd"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f86a"},"StartTime":{"$date":{"$numberLong":"1672592400000"}},"EndTime":{"$date":{"$numberLong":"1672596000000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799770"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3d2"},"DriverId":{"$oid":"6736a78e001be4ded09259bd"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85a"},"StartTime":{"$date":{"$numberLong":"1672596000000"}},"EndTime":{"$date":{"$numberLong":"1672600000000"}}},
+	{"_id":{"$oid":"6736d203670a7e2b40799771"},"BusId":{"$oid":"5f4e6a8f9a4f3d07e8b0a3d3"},"DriverId":{"$oid":"6736a78e001be4ded09259bd"},"LineId":{"$oid":"6736ba9bfa0f8b15d773f85b"},"StartTime":{"$date":{"$numberLong":"1672600000000"}},"EndTime":{"$date":{"$numberLong":"1672603600000"}}}
 ]
